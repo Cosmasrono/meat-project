@@ -1,9 +1,10 @@
 <template>
   <main>
-    <a href=""><img src="../assets/wall/log.png"></a>
     <h1 class=" text-4xl text-amber-500">Welcome to starlight butchery</h1>
+    <a href=""><img src="../assets/wall/log.png"></a>
+    
     <div class=" ">
-      <img src="../assets/wall/back.jpg" class=" py-3 my-5" style="height:700px; width:100%">
+      <img src="../assets/wall/back3.jpg" class=" pr-5 pl-5 ml-5 mr-5" style="height:650px; width:98%">
       </div>
   <!-- <div class=""></div>
   <svg class=" bg-black"
@@ -13,7 +14,8 @@ viewBox="0 0 76 65"
 fill="none" xmlns="http://www.w3.org/2000/svg">logo<path
 d="M37.5274 0L75.0548 65H0L37.5274 0Z" fill="#ffffff"/></svg> -->
 <div class=" flex items-center justify-center p-4 m-5">
-  <p class=" text-start text-white">
+  <!-- <h2 class=" text-4xl text-amber-500 flex flex-col">The starlight</h2> -->
+  <p class=" text-start text-white"><br>
     we are located in nakuru county,kuresoi north,kamara ward .We have all requirments as far as health is concern.
        Red meat is a nutrient dense food providing important amounts of protein, essential amino acids, vitamins, and minerals that are the most common nutrient shortages in the world, including vitamin A, iron, an
        Despite claims by the World Health Organization (WHO) that eating processed meat causes colon cancer and red meat probably causes cancer, the observational data used to support the claims are weak, confounded by multiple unmeasured factors, and not supported by other types of research needed for such a conclusion. Although intervention studies are designed to test the validity of associations found in observational studies, two interventions of low-fat, low-meat diets in volunteers that failed to find a benefit on cancer were not considered in the WHO decision.
@@ -51,7 +53,8 @@ d="M37.5274 0L75.0548 65H0L37.5274 0Z" fill="#ffffff"/></svg> -->
                                   <a href="https://www.linkedin.com/feed/"><img src="../assets/wall/linkedin.png"></a>
                                  
                            </span>
-                              
+            <div class=""><a href="https://www.dreamstime.com/stock-photo-kenyan-beef-stew-nyama-kenya-african-cuisine-image6215550"/></div>
+                      
   </main>
  </template>
 
