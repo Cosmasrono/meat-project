@@ -4,7 +4,7 @@
     <a href=""><img src="../assets/wall/log.png"></a>
     
     <div class=" ">
-      <img src="../assets/wall/back3.jpg" class=" pr-5 pl-5 ml-5 mr-5" style="height:650px; width:98%">
+      <img src="../assets/wall/meat3.jpg" class=" pr-5 pl-5 ml-5 mr-5" style="height:650px; width:98%">
       </div>
   <!-- <div class=""></div>
   <svg class=" bg-black"

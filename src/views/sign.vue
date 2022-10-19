@@ -13,10 +13,10 @@
     <input type="email" placeHolder="enter email" class=" px-6 py-2 rounded-lg p-1 text-black m-1 " v-model="email"/>
     <div class="flex justify-center items-center sm:flex-row flex-col">
         <label class=""> enter your password</label></div>
-    <input type="text"  placeHolder="password" class=" px-6 py-2 rounded-lg p-1 text-black m-1 " v-model="password">
+    <input type="password"  placeHolder="password" class=" px-6 py-2 rounded-lg p-1 text-black m-1 " v-model="password">
     <div class="flex justify-center items-center sm:flex-row flex-col">
         <label class="">confirm your password</label></div>
-    <input type="text"  placeHolder="confirm password" class=" px-6 py-2 rounded-lg p-1 text-black m-1 " v-model="confirmPassword" >
+    <input type="password"  placeHolder="confirm password" class=" px-6 py-2 rounded-lg p-1 text-black m-1 " v-model="confirmPassword" >
     <div class="flex justify-center items-center sm:flex-row flex-col">
         <label class=" text-amber-900"></label></div>
         <input type="submit" value="submit" class="px-12  py-3 rounded-lg p-1 text-white m-1 bg-blue-700">
@@ -58,7 +58,11 @@
         }
        })
        if(res.ok){
-        let data=res.json()
+        let data=await res.json()
+          alert(data.message);
+          this.$router.push('/login')
+       }else{
+        let data=await res.json()
           alert(data.message);
        }
         
