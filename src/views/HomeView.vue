@@ -4,7 +4,7 @@
     <a href=""><img src="../assets/wall/log.png"></a>
     
     <div class=" ">
-      <img src="../assets/wall/meat3.jpg" class=" pr-5 pl-5 ml-5 mr-5" style="height:650px; width:98%">
+      <img src="../assets/wall/meat1.jpg" class=" pr-5 pl-5 ml-5 mr-5" style="height:650px; width:98%">
       </div>
   <!-- <div class=""></div>
   <svg class=" bg-black"
@@ -15,7 +15,7 @@ fill="none" xmlns="http://www.w3.org/2000/svg">logo<path
 d="M37.5274 0L75.0548 65H0L37.5274 0Z" fill="#ffffff"/></svg> -->
 <div class=" flex items-center justify-center p-4 m-5">
   <!-- <h2 class=" text-4xl text-amber-500 flex flex-col">The starlight</h2> -->
-  <p class=" text-start text-white"><br>
+  <p class=" text-start text-yellow-500"><br>
     we are located in nakuru county,kuresoi north,kamara ward .We have all requirments as far as health is concern.
        Red meat is a nutrient dense food providing important amounts of protein, essential amino acids, vitamins, and minerals that are the most common nutrient shortages in the world, including vitamin A, iron, an
        Despite claims by the World Health Organization (WHO) that eating processed meat causes colon cancer and red meat probably causes cancer, the observational data used to support the claims are weak, confounded by multiple unmeasured factors, and not supported by other types of research needed for such a conclusion. Although intervention studies are designed to test the validity of associations found in observational studies, two interventions of low-fat, low-meat diets in volunteers that failed to find a benefit on cancer were not considered in the WHO decision.
