@@ -1,11 +1,14 @@
-<template>
+<!-- <div class=" pt-3  bg-slate-900 mt-3 "> -->
+  <template>
+      <div class=" flex  flex-col md:flex-row justify-center items-center m-5 ">  
+        <div class=" transition-all duration-500 transform hover:opacity-90 pt-1 hover:pb-1">
     <div class=" ">
       <!-- component -->
       <div class="overflow-x-auto md:left-36 md:mt-1 top-1 md:ml-2  md:relative  md:flex">
         <div class=" flex items-center justify-center bg-black font-sans overflow-hidden grid-rows-3 md:grid-rows-2 md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-1 mx-auto pt-5 pb-7 ">
-          <div class="w-full lg:w-5/6">
+          <div class=" w-min md:w-5/6">
             <div class="bg-white shadow-md rounded">
-              <table class=" table-auto flex-wrap">
+              <table class=" table-auto">
                 <thead>
                   <tr
                     class="bg bg-slate-900 "
@@ -28,8 +31,6 @@
                            <!-- < select name="age" id="age"  > -->
                               <input type="number" name="kilo" id="kilo" v-model="selected" placeholder=" ">
                           <!--   <option value=" " class=" text-black"  v-for="kilo in kilos" :key="kilo">{{kilo}}</option> -->
-                            
-
                            <!--  </select> -->
                         </span>
                       </div>
@@ -89,7 +90,8 @@
         </div>
       </div>
     </div>
-
+   </div>
+      </div>
   
   </template>
   

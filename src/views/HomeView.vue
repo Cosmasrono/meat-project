@@ -3,16 +3,20 @@
     <h1 class=" text-4xl text-amber-500">Welcome to starlight butchery</h1>
     <a href=""><img src="../assets/wall/log.png"></a>
     
-    <div class=" ">
-      <img src="../assets/wall/meat1.jpg" class=" pr-5 pl-5 ml-5 mr-5" style="height:650px; width:98%">
+    <div class=" pt-3  bg-slate-900 mt-3 ">
+        <h1 class=" text-white text-2xl">NodeJs</h1> 
+      <div class=" flex  flex-col md:flex-row justify-center items-center m-5 ">  
+        <div class=" transition-all duration-500 transform hover:opacity-90 pt-1 hover:pb-1">
+        <img src="../assets/wall/meat1.jpg" alt="" class=" w-min md:mr-80">
       </div>
-  <!-- <div class=""></div>
-  <svg class=" bg-black"
-  width="76"
- height="65"
-viewBox="0 0 76 65"
-fill="none" xmlns="http://www.w3.org/2000/svg">logo<path
-d="M37.5274 0L75.0548 65H0L37.5274 0Z" fill="#ffffff"/></svg> -->
+      </div>
+      </div>
+      <div class=" relative left-14"> 
+   <div class=" flex items-center justify-end pr-6 pl-6 px-3 my-4 mx-60 rounded-md border-slate-700  text-white">
+      <div class=" "><img src="../assets/wall/lepen.jpg" class="  h-full w-full ">
+    </div>
+   </div>
+      </div>
 <div class=" flex items-center justify-center p-4 m-5">
   <!-- <h2 class=" text-4xl text-amber-500 flex flex-col">The starlight</h2> -->
   <p class=" text-start text-yellow-500"><br>
