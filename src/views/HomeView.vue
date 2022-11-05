@@ -63,7 +63,7 @@
             
                                 <span class=" flex flex-row items-center justify-center gap-5">
                                   <a href="https://www.facebook.com/"><img src="../assets/wall/facebook.png"></a>
-                                  <a href="https://web.whatsapp.com/"><img src="../assets/wall/whatsapp.png"></a>
+                                  <a href="https://web.whatsap.com/"><img src="../assets/wall/whatsapp.png"></a>
                                   <a href="https://www.linkedin.com/feed/"><img src="../assets/wall/linkedin.png"></a>
                                  
                            </span>
