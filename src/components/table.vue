@@ -5,7 +5,7 @@
     <div class=" ">
       <!-- component -->
       <div class="overflow-x-auto md:left-36 md:mt-1 top-1 md:ml-2  md:relative  md:flex">
-        <div class=" flex items-center justify-center bg-black font-sans overflow-hidden grid-rows-3 md:grid-rows-2 md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-1 mx-auto pt-5 pb-7 ">
+        <div class=" flex items-center justify-center bg-slate-600 font-sans overflow-hidden grid-rows-3 md:grid-rows-2 md:grid-cols-2 lg:grid-cols-3 grid-cols-1  mx-auto pt-5 pb-7 ">
           <div class=" w-min md:w-5/6">
             <div class="bg-white shadow-md rounded">
               <table class=" table-auto">
@@ -17,7 +17,7 @@
                     <th class="py-1 px-3 text-left">amount</th>
                     <th class="py-1 px-3 text-center">mode of tansaction</th>
                     <th class="py-1 px-3 text-center">mode of transport</th>
-                    <th class="py-1 px-3 text-center" @click="pay" >pay here</th>
+                    <th class="py-5 px-3 text-center" @click="pay" >pay here</th>
                   </tr>
                 </thead>
                 <tbody class="text-gray-600 text-sm font-light" >
@@ -77,7 +77,7 @@
                         </div>
                         <div
                       class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110" >
-                      <button class=" no-underline text-black font-medium bg-white shadow-md rounded" @click="btn" ><a href="https://www.paypal-mobilemoney.com/m-pesa/register">Pay</a></button>
+                      <button class=" no-underline text-black font-medium bg-white shadow-md rounded p-4" @click="btn" ><a href="https://www.paypal-mobilemoney.com/m-pesa/register">Pay</a></button>
                         </div>
                       </div>
                     </td>

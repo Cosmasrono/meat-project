@@ -2,21 +2,31 @@
   <main>
     <h1 class=" text-4xl text-amber-500">Welcome to starlight butchery</h1>
     <a href=""><img src="../assets/wall/log.png"></a>
-    
+    <button class=" transform h-14 bg-blue-700 transition duration-500 hover:scale-125 hover:bg-blue-700 flex justify-center items-center text-white flex-col rounded-md px-5 py-3"><a href="sms:254757450716?body=Hello Starlight,,i need meat">Click for delivery</a></button>
+
     <div class=" pt-3  bg-slate-900 mt-3 ">
-        <h1 class=" text-white text-2xl">NodeJs</h1> 
-      <div class=" flex  flex-col md:flex-row justify-center items-center m-5 ">  
+        <h1 class=" text-white text-2xl">TASTE THE FEELING</h1> 
+      <!--   <div class=" flex  flex-col md:flex-row justify-center items-center m-5 ">  
         <div class=" transition-all duration-500 transform hover:opacity-90 pt-1 hover:pb-1">
         <img src="../assets/wall/meat1.jpg" alt="" class=" w-min md:mr-80">
       </div>
+      </div> -->
+      </div> 
+      <div class=" md:left-24 ">
+        <div class=" md:flex-row w-full justify-center items-center md:min-h-screen relative ">
+      <div class=" pt-3  bg-slate-900 mt-3  md:ml-72">
+      <div class=" flex  flex-col md:flex-row justify-center items-center ">  
+        <img src="../assets/wall/meat1.jpg" alt="" class=" w-fit md:mr-80">
       </div>
       </div>
-      <div class=" relative left-14"> 
+      </div>
+        </div>
+      <!-- <div class=" relative left-14"> 
    <div class=" flex items-center justify-end pr-6 pl-6 px-3 my-4 mx-60 rounded-md border-slate-700  text-white">
       <div class=" "><img src="../assets/wall/lepen.jpg" class="  h-full w-full ">
     </div>
    </div>
-      </div>
+      </div> -->
 <div class=" flex items-center justify-center p-4 m-5">
   <!-- <h2 class=" text-4xl text-amber-500 flex flex-col">The starlight</h2> -->
   <p class=" text-start text-yellow-500"><br>
@@ -58,7 +68,7 @@
                                  
                            </span>
             <div class=""><a href="https://www.dreamstime.com/stock-photo-kenyan-beef-stew-nyama-kenya-african-cuisine-image6215550"/></div>
-                      
+  
   </main>
  </template>
 
