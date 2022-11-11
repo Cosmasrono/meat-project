@@ -6,7 +6,7 @@
     <router-link to="/about">About</router-link>|
     <router-link to="/services">services</router-link>|
     <router-link to="/visit">visit</router-link>|
-   <router-link to="/login" class=" pr-2">login</router-link>
+ <!--   <router-link to="/login" class=" pr-2">login</router-link> -->
   </nav>
   <!-- <router-link to="/sign" class=" pr-5">sign</router-link> -->
   

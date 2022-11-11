@@ -1,27 +1,116 @@
-<template>
-    <main class="">
-        <form class=" flex justify-center items-center flex-col mx-auto  border rounded-md mt-10">
-        <div class=" text-white ">
-            <h1 class=" text-amber-500 text-3xl">This are our services</h1>
-          <p class=" text-start m-4 p-3 "> 
-            Kenya Meat Commission has a huge production capacity and infrastructure. It has a slaughter capacity of 1,000 large animals per day and 1,500 small stocks per day in Athi River and 250 large stock and 500 small stock per day in Mombasa.
-
-The livestock are received at the boma by the Veterinary officers in charge of the plant. They are clinically inspected and rested in the pens for a minimum of 12hours during which period they are fed on water only. Further ante-mortem inspections are carried out before the animals are released for slaughter.
-
-The KMC slaughtering process is very elaborate and ensures all hygiene measures are put in place for quality products. Halal slaughter is practiced and the animal bled along the conveyor for approximately 7 minutes. The dressing is done and evisceration carried out along the conveyor. Thorough clinical inspections are carried out by qualified government veterinary inspectors who are independent to the operations of KMC. This is geared towards ensuring high quality standards and safety of our products. The carcass is split, washed, weighed and graded. The animals are graded as per the specifications stipulated in the KMC act cap 363. The grades include prime, Choice, FAQ, Standard grade and Commercial grades. All the products are stored in the chilling facilities where the aging or curing of the meat takes place resulting to tender meat. The Chilling facilities have a capacity of 1750 carcasses operating at temperatures of between 0 - 2°C. The carcasses are held at these temperatures for 5 - 7 days to age the meat resulting to tender juicy meat cuts. There are also additional freezing storage areas where frozen carcasses and cuts are held before dispatch.
-
-The interior design of the plant ensures that clean and dirty functions are separated. Inedible or condemned materials are easily removed on a continuous basis from areas where edible materials are handled and detained meat is kept and examined without contaminating passed meat.
-The meat is dispatched as carcasses or as value added products. In the value addition line, various primal cuts are processed which include; Topside, Silverside, Rump steak, T-bone steak, Fillet, Rib roast etc. the department also processes meat balls and burgers.
-
-The canning line has 2 main automated lines for corned beef production. The machines have a canning capacity of 60 cans/ minute each. In addition there is another line used to process canned pet food and the canned ox tongue. Stringent control measures are in place during processing to ensure that products conform to the laid down specifications. All the canned products are stored at the finished products store where inspection and labelling takes place.
-
-Kenya Meat Commission produces a range of by-products through it rendering plant which converts all wastes into meat and bone meal and tallow. Other by-products include hides and skins, hooves, horns and blood meal.
-
-Continuous research and development of new products is carried out to ensure improvement of the current products and introduction of new products into the market as per the market demand. The new products development team will soon launch sausages into the market.
-
-Kenya Meat Commission uses its own licensed meat carriers to deliver products to the various outlets. The carriers are either refrigerated for long distance deliveries or insulated for short distant deliveries. We always aim to maintain the cold chain during product distribution.>
-</p> 
-        </div>
-        </form>
-    </main>
-</template>
+ <template>
+        <main>
+<div class="overflow-x-auto relative shadow-md sm:rounded-lg">
+    <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <tr>
+                <th scope="col" class="py-3 px-6">
+                    <span class="sr-only">Image</span>
+                </th>
+                <th scope="col" class="py-3 px-6">
+                    Product
+                </th>
+                <th scope="col" class="py-3 px-6">
+                    Qty
+                </th>
+                <th scope="col" class="py-3 px-6">
+                    Price
+                </th>
+                <th scope="col" class="py-3 px-6">
+                    Action
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                <td class="p-4 w-32">
+                </td>
+                <td class="py-4 px-6 font-semibold text-gray-900 dark:text-white">
+                    Apple Watch
+                </td>
+                <td class="py-4 px-6">
+                    <div class="flex items-center space-x-3">
+                        <button class="inline-flex items-center p-1 text-sm font-medium text-gray-500 bg-white rounded-full border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700" type="button">
+                            <span class="sr-only">Quantity button</span>
+<!--                             <svg class="w-4 h-4" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+ -->                        </button>
+                        <div>
+                            <input type="number" id="first_product" class="bg-gray-50 w-14 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block px-2.5 py-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="1">
+                        </div>
+                        <button class="inline-flex items-center p-1 text-sm font-medium text-gray-500 bg-white rounded-full border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700" type="button">
+                            <span class="sr-only">Quantity button</span>
+<!--                             <svg class="w-4 h-4" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
+ -->                        </button>
+                    </div>
+                </td>
+                <td class="py-4 px-6 font-semibold text-gray-900 dark:text-white">
+                    $599
+                </td>
+                <td class="py-4 px-6">
+                    <a href="#" class="font-medium text-red-600 dark:text-red-500 hover:underline">Remove</a>
+                </td>
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                <td class="p-4 w-32">
+<!--                     <img src="/docs/images/products/imac.png" alt="Apple Imac">
+ -->                </td>
+                <td class="py-4 px-6 font-semibold text-gray-900 dark:text-white">
+                    Imac 27"
+                </td>
+                <td class="py-4 px-6">
+                    <div class="flex items-center space-x-3">
+                        <button class="inline-flex items-center p-1 text-sm font-medium text-gray-500 bg-white rounded-full border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700" type="button">
+                            <span class="sr-only">Quantity button</span>
+<!--                             <svg class="w-4 h-4" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+ -->                        </button>
+                        <div>
+                            <input type="number" id="second_product" class="bg-gray-50 w-14 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block px-2.5 py-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="1" >
+                        </div>
+                        <button class="inline-flex items-center p-1 text-sm font-medium text-gray-500 bg-white rounded-full border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700" type="button">
+                            <span class="sr-only">Quantity button</span>
+<!--                             <svg class="w-4 h-4" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
+ -->                        </button>
+                    </div>
+                </td>
+                <td class="py-4 px-6 font-semibold text-gray-900 dark:text-white">
+                    $2499
+                </td>
+                <td class="py-4 px-6">
+                    <a href="#" class="font-medium text-red-600 dark:text-red-500 hover:underline">Remove</a>
+                </td>
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                <td class="p-4 w-32">
+<!--                     <img src="/docs/images/products/iphone-12.png" alt="Iphone 12">
+ -->                </td>
+                <td class="py-4 px-6 font-semibold text-gray-900 dark:text-white">
+                    Iphone 12 
+                </td>
+                <td class="py-4 px-6">
+                    <div class="flex items-center space-x-3">
+                        <button class="inline-flex items-center p-1 text-sm font-medium text-gray-500 bg-white rounded-full border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700" type="button">
+                            <span class="sr-only">Quantity button</span>
+<!--                             <svg class="w-4 h-4" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+ -->                        </button>
+                        <div>
+                            <input type="number" id="third_product" class="bg-gray-50 w-14 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block px-2.5 py-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="1" >
+                        </div>
+                        <button class="inline-flex items-center p-1 text-sm font-medium text-gray-500 bg-white rounded-full border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700" type="button">
+                            <span class="sr-only">Quantity button</span>
+<!--                             <svg class="w-4 h-4" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
+ -->                        </button>
+                    </div>
+                </td>
+                <td class="py-4 px-6 font-semibold text-gray-900 dark:text-white">
+                    $999
+                </td>
+                <td class="py-4 px-6">
+                    <a href="#" class="font-medium text-red-600 dark:text-red-500 hover:underline">Remove</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</main>
+  
+</template> 

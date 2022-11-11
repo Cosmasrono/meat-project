@@ -1,4 +1,4 @@
-<template>
+ <!--<template>
         <Form  @submit.prevent="handleSubmit" class="  m-2 py-2 flex justify-center items-center flex-col mx-auto max-w-xl gap-y-2 bg-slate-800 border border-emerald-400 rounded-md">
     
     <div class="flex-row items-center justify-center   text-cyan-200">
@@ -23,9 +23,9 @@
     </div>
     </Form>
 
-</template>
+</template> 
 <script>
-/* import { body, validationResult } from 'express-validator'; */
+/* import { body, validationResult } from 'express-validator'; 
 
     export default{
         name:'sign',
@@ -68,4 +68,4 @@
         
 }
     }}
-</script>
+</script> 

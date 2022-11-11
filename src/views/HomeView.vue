@@ -1,10 +1,10 @@
 <template>
   <main>
     <h1 class=" text-4xl text-amber-500">Welcome to starlight butchery</h1>
-    <a href=""><img src="../assets/wall/log.png"></a>
-    <button class=" transform h-14 bg-blue-700 transition duration-500 hover:scale-125 hover:bg-blue-700 flex justify-center items-center text-white flex-col rounded-md px-5 py-3"><a href="sms:254757450716?body=Hello Starlight,,i need meat">Click for delivery</a></button>
+    <a href=""><img src="../assets/wall/log.png" class=" ml-2 mt-0"></a>
+    <button class="  ml-4transform h-14 bg-blue-700 transition duration-500 hover:scale-125 hover:bg-blue-700 flex justify-center items-center text-white flex-col rounded-md px-5 py-3"><a href="sms:254757450716?body=Hello Starlight,,i need meat">Click for delivery</a></button>
 
-    <div class=" pt-3  bg-slate-900 mt-3 ">
+    <div class=" pt-3  mt-3 ">
         <h1 class=" text-white text-2xl">TASTE THE FEELING</h1> 
       <!--   <div class=" flex  flex-col md:flex-row justify-center items-center m-5 ">  
         <div class=" transition-all duration-500 transform hover:opacity-90 pt-1 hover:pb-1">
@@ -14,7 +14,7 @@
       </div> 
       <div class=" md:left-24 ">
         <div class=" md:flex-row w-full justify-center items-center md:min-h-screen relative ">
-      <div class=" pt-3  bg-slate-900 mt-3  md:ml-72">
+      <div class=" pt-3   mt-3  md:ml-72">
       <div class=" flex  flex-col md:flex-row justify-center items-center ">  
         <img src="../assets/wall/meat1.jpg" alt="" class=" w-fit md:mr-80">
       </div>
